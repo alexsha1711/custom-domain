@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(164, 164, 164);
+    text-align: center;
+    
+}
+
+.h1{
+    margin-top: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    text-align: center;
+    letter-spacing: -2px;
+}
+
+.animate-text{
+    letter-spacing: 1px;
+    margin-top: -40px;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(140, 140, 140);
+    animation: fadeInUp 2s ease-out forwards 0.5s;
+    -webkit-text-fill-color: grey;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.5px;
+}
+
+@keyframes fadeInUp{
+
+
+    0%{
+        opacity: 1;
+        transform: translateY(200px)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+.InformationsTabelle {
+    margin: auto;
+    border-collapse: collapse;
+    width: 25%; 
+    margin-bottom: 100px;
+    background-color: rgb(183, 183, 183);
+    font-size: 20px;
+    font-family: monospace;
+  }
+
+.InformationsTabelle th, .InformationsTabelle td {
+    border: 2px solid black;
+    padding: 6px 6px;
+    text-align: center;
+}
+
+.InformationsTabelle th {
+    background-color: #636363;
+    color: #FFF;
+    text-align: center;
+}
+
+.InformationsTabelle tr:nth-child(even) {
+    background-color: #5c5c5c;
+    text-align: center;
+}
+
+.button {
+    opacity: 0.8;
+    font-size: 20px;
+    padding: 8px;
+    background-color: rgb(61, 47, 47);
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.Einleitung{
+    word-spacing: 3px;
+    margin-top: 1000px;
+    margin-bottom: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div{
+    font-family: monospace;
+    font-size: 40px;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    text-align: center;
+    letter-spacing: -3px;
+    margin-bottom: 20;
+}
+
+
+#myChart {
+    z-index: 1;
+    border: 1px solid black; 
+    min-width: 500px;
+    max-width: 900px;
+    min-height: 400px;
+    max-height: 600px;
+    background-color: rgb(178, 178, 178);
+    margin-bottom: 80px;
+    margin-right: auto;
+    margin-left: auto; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .circle {
+    position: fixed;
+    pointer-events: none;
+    z-index: 10;
+    width: 12px; 
+    height: 12px; 
+    background-color: #000000; 
+    border-radius: 50%;
+    transition: transform 1.5s ease; 
+  }
+  
